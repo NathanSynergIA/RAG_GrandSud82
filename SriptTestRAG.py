@@ -53,8 +53,8 @@ def documentation_page():
         - Le bot recherche la réponse dans la base de données et vous la fournit.
 
         ### Maintenance hebdomadaire
-        Chaque dimanche, l'administrateur général, **Nathan Bruyère** (nathan.bruyere@synergiaa.fr), met à jour la base de données en ajoutant les nouveaux fichiers PDF des délibérations.
-        - Si un fichier doit être ajouté en urgence, contactez **Nathan Bruyère** par e-mail.
+        Chaque dimanche, l'administrateur général, **Nathan Bruyere** (nathan.bruyere@synergiaa.fr), met à jour la base de données en ajoutant les nouveaux fichiers PDF des délibérations.
+        - Si un ou plusierus fichiers doivent être ajoutés en urgence, contactez **Nathan Bruyere** (nathan.bruyere@synergiaa.fr) par e-mail.
 
         ### Rédiger une bonne question (prompt)
         Une bonne question, ou "prompt", est essentielle pour obtenir une réponse précise. Voici quelques conseils :
@@ -81,7 +81,7 @@ def documentation_page():
 
         ### Support technique
         Si vous rencontrez un problème ou avez des questions concernant l'utilisation du chatbot, contactez l'administrateur général :
-        **Nathan Bruyère (nathan.bruyere@synergiaa.fr)**.
+        **Nathan Bruyere (nathan.bruyere@synergiaa.fr)**.
         """
     )
     
