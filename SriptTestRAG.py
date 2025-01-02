@@ -44,7 +44,7 @@ def documentation_page():
     st.title("Documentation / README")
     st.markdown(
         """
-        ## Bienvenue sur la documentation du Chatbot
+       
         Ce chatbot est conçu pour répondre à vos questions en se basant sur les délibérations hebdomadaires du conseil de la communauté de communes.
 
         ### Fonctionnement du Chatbot
