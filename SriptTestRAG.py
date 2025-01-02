@@ -61,7 +61,7 @@ def documentation_page():
     
 # Configuration de la barre latérale
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Aller à :", ["Chatbot", "Documentation"])
+page = st.sidebar.radio("Afficher :", ["Chatbot", "Documentation"])
 
 # Appeler les pages en fonction du choix
 if page == "Documentation":
