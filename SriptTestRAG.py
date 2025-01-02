@@ -42,22 +42,48 @@ if st.button("Effacer l'historique"):
 
 def documentation_page():
     st.title("Documentation / README")
-    st.markdown("""
-    ## Bienvenue sur la documentation de l'application
-    Voici quelques informations utiles pour vous guider dans l'utilisation de ce chatbot :
-    
-    ### Fonctionnalités
-    - Posez vos questions dans l'onglet "Chatbot".
-    - Obtenez des réponses basées sur un workflow intelligent grâce à n8n.
-    - Suivez l'historique de vos interactions.
+    st.markdown(
+        """
+        ## Bienvenue sur la documentation du Chatbot
+        Ce chatbot est conçu pour répondre à vos questions en se basant sur les délibérations hebdomadaires du conseil de la communauté de communes.
 
-    ### Conseils d'utilisation
-    - Posez des questions claires et précises pour des réponses optimales.
-    - Si une réponse semble incorrecte, reformulez votre question.
+        ### Fonctionnement du Chatbot
+        Le chatbot utilise une base de données constituée de fichiers PDF contenant les délibérations hebdomadaires.
+        - Vous posez une question.
+        - Le bot recherche la réponse dans la base de données et vous la fournit.
 
-    ### À propos
-    Développé par [Votre Nom ou Entreprise], avec une intégration entre Streamlit et n8n.
-    """)
+        ### Maintenance hebdomadaire
+        Chaque dimanche, l'administrateur général, **Nathan Bruyère** (nathan.bruyere@synergiaa.fr), met à jour la base de données en ajoutant les nouveaux fichiers PDF des délibérations.
+        - Si un fichier doit être ajouté en urgence, contactez **Nathan Bruyère** par e-mail.
+
+        ### Rédiger une bonne question (prompt)
+        Une bonne question, ou "prompt", est essentielle pour obtenir une réponse précise. Voici quelques conseils :
+        1. Soyez précis : Donnez un maximum de détails pertinents dans votre question.
+        2. Formulez votre question clairement : Évitez les formulations vagues.
+        3. Incluez des mots-clés : Mentionnez les éléments importants comme des noms, des dates ou des montants.
+
+        #### Exemples de bons prompts :
+        - "De combien était le montant du contrat de 2022 avec l'entreprise X ?"
+        - "Quel est le contenu de la délibération du 15 janvier 2023 concernant le budget ?"
+        - "Quels sont les partenaires mentionnés dans la délibération du 10 mars 2023 ?"
+
+        #### Exemples de prompts vagues :
+        - "Parle-moi des contrats."
+        - "Qu'est-ce qui s'est passé en 2022 ?"
+
+        Si le bot ne comprend pas votre question ou donne une réponse imprécise, reformulez en ajoutant plus de contexte ou de détails.
+
+        ### Questions fréquentes
+        - **Q : De combien était le montant du contrat de 2022 avec l'entreprise X ?**
+          - R : Le bot cherchera ce montant dans les délibérations et vous fournira la réponse exacte.
+        - **Q : Quels projets ont été approuvés en janvier 2023 ?**
+          - R : Le bot listera les projets mentionnés dans les délibérations de cette période.
+
+        ### Support technique
+        Si vous rencontrez un problème ou avez des questions concernant l'utilisation du chatbot, contactez l'administrateur général :
+        **Nathan Bruyère (nathan.bruyere@synergiaa.fr)**.
+        """
+    )
     
 # Configuration de la barre latérale
 st.sidebar.title("Navigation")
