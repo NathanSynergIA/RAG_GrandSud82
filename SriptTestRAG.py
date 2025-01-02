@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # URL du webhook dans n8n
-N8N_WEBHOOK_URL = "https://nathansynergiaa.app.n8n.cloud/webhook-test/9ba11544-5c4e-4f91-818a-08a4ecb596c5"
+N8N_WEBHOOK_URL = "https://nathansynergiaa.app.n8n.cloud/webhook/9ba11544-5c4e-4f91-818a-08a4ecb596c5"
 
 # Initialiser l'historique dans st.session_state
 if "history" not in st.session_state:
