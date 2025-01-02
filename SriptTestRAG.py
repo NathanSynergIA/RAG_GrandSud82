@@ -42,8 +42,8 @@ if st.button("Effacer l'historique"):
 
 def documentation_page():
 # Rendre invisible l'historique et les discussions lorsqu'on affiche la documentation
-    if "chatbot_visible" in st.session_state:
-        st.session_state.chatbot_visible = False
+
+    st.session_state.chatbot_visible = False
     
     st.title("Documentation / README")
     st.markdown(
