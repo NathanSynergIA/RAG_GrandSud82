@@ -39,3 +39,7 @@ for interaction in st.session_state.history:
     # Effacer l'historique
 if st.button("Effacer l'historique"):
     st.session_state.history = []
+
+# Configuration de la barre latérale
+st.sidebar.title("Navigation")
+page = st.sidebar.radio("Aller à :", ["Chatbot", "Documentation"])
