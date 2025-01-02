@@ -9,7 +9,7 @@ if "history" not in st.session_state:
     st.session_state.history = []
     
     # Interface utilisateur
-st.title("Le Chatbot GrandSud82")
+st.title("Chatbot GrandSud82")
 question = st.text_input("Posez votre question :", key="question")
     
 if st.button("Envoyer"):
