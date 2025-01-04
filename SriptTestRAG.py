@@ -22,7 +22,7 @@ with col2:
     st.markdown(
             """
             <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
-                <span style="font-size: 18px; font-weight: bold;">&</span>
+                <span style="font-size: 18px; font-weight: bold;"></span>
             </div>
             """,
             unsafe_allow_html=True,
