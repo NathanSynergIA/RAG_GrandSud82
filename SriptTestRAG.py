@@ -4,6 +4,7 @@ import requests
 # URL du webhook dans n8n
 N8N_WEBHOOK_URL = "https://nathansynergiaa.app.n8n.cloud/webhook/9ba11544-5c4e-4f91-818a-08a4ecb596c5"
 
+
 # Initialiser l'historique dans st.session_state
 if "history" not in st.session_state:
     st.session_state.history = []
@@ -68,6 +69,7 @@ def documentation_page():
         - "De combien était le montant du contrat de 2022 avec l'entreprise X ?"
         - "Quel est le contenu de la délibération du 15 janvier 2023 concernant le budget ?"
         - "Quels sont les partenaires mentionnés dans la délibération du 10 mars 2023 ?"
+        - "Quel est le coût global HT de la proposition de programme de travaux des ponts pour 2025 ?"
 
         #### Exemples de prompts vagues :
         - "Parle-moi des contrats."
