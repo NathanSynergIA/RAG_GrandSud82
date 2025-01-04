@@ -15,7 +15,7 @@ col1, col2, col3 = st.columns([1, 2, 1])  # Ajuster les proportions si nécessai
 
     # Afficher le logo de SynergIA
 with col1:
-    st.image("LogoSynergIA.png", width=400)
+    st.image("LogoSynergIA.png", width=800)
 
     # Afficher le texte au centre
 with col2:
@@ -30,7 +30,7 @@ with col2:
 
     # Afficher le logo de GrandSudTarnetGaronne
 with col3:
-    st.image("GrandSud.png", width=400)
+    st.image("GrandSud.png", width=700)
     
 st.title("Chatbot GrandSud82")
 
