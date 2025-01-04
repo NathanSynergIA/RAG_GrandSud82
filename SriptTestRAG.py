@@ -93,6 +93,7 @@ def documentation_page():
         - "Quel est le contenu de la délibération du 15 janvier 2023 concernant le budget ?"
         - "Quels sont les partenaires mentionnés dans la délibération du 10 mars 2023 ?"
         - "Quel est le coût global HT de la proposition de programme de travaux des ponts pour 2025 ?"
+        - "Peux tu me dire de combien était le montant TTC de l'achat de panneaux cyclables à la société SIGNAUX GIROD ?"
 
         #### Exemples de prompts vagues :
         - "Parle-moi des contrats."
