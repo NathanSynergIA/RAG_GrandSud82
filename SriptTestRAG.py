@@ -19,7 +19,14 @@ with col1:
 
     # Afficher le texte au centre
 with col2:
-    st.markdown("<h3 style='text-align: center;'>en collaboration avec</h3>", unsafe_allow_html=True)
+    st.markdown(
+            """
+            <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+                <span style="font-size: 18px; font-weight: bold;">en collaboration avec</span>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
 
     # Afficher le logo de GrandSudTarnetGaronne
 with col3:
