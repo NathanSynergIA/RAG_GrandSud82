@@ -10,7 +10,26 @@ if "history" not in st.session_state:
     st.session_state.history = []
     
     # Interface utilisateur
-st.image("LogoSynergIA.png", width=200)  # Ajustez 'width'
+
+col1, col2, col3 = st.columns([1, 2, 1])  # Ajuster les proportions si nécessaire
+
+    # Afficher le logo de SynergIA
+with col1:
+    st.image("LogoSynergIA.png", width=150)
+
+    # Afficher le texte au centre
+with col2:
+    st.markdown("<h3 style='text-align: center;'>en collaboration avec</h3>", unsafe_allow_html=True)
+
+    # Afficher le logo de GrandSudTarnetGaronne
+with col3:
+    st.image("GrandSud.png", width=150)
+
+
+
+
+
+
 st.title("Chatbot GrandSud82")
 question = st.text_input("Posez votre question :", key="question")
     
