@@ -10,7 +10,7 @@ if "history" not in st.session_state:
     st.session_state.history = []
     
     # Interface utilisateur
-st.image("LogoSynergia.png", width=200)  # Ajustez 'width'
+st.image("LogoSynergIA.png", width=200)  # Ajustez 'width'
 st.title("Chatbot GrandSud82")
 question = st.text_input("Posez votre question :", key="question")
     
