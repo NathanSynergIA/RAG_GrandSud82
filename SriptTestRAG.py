@@ -19,7 +19,8 @@ def check_password():
         if st.button("Valider"):
             if password == PASSWORD:
                 st.session_state.password_correct = True
-                st.success("✅ Accès autorisé ! Bienvenue dans le Chatbot.")
+                st.success("✅ Accès autorisé ! Bienvenue dans le Chatbot (redirection en cours...)")
+                st.experimental_rerun()  # 🔄 Forcer le rafraîchissement
             else:
                 st.error("❌ Mot de passe incorrect. Veuillez réessayer.")
         return False
